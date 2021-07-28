@@ -1,0 +1,200 @@
+.layout {
+  background-color: hsl(210, 4%, 95%);
+}
+
+.my-network {
+  display: flex;
+  justify-content: center;
+  width: 1128px;
+  height: 100%;
+  gap: 20px;
+}
+
+.my-network-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px 10px;
+}
+
+.top-spacing {
+  padding: 16px;
+  min-height: 17px;
+}
+
+.my-network__summary {
+  padding: 20px;
+  min-width: 300px;
+  max-width: 40%;
+  border-bottom: 1px solid hsl(0, 0%, 70%);
+}
+
+.my-network__summary > .my-network__summary-heading {
+  font-size: 18px;
+}
+
+.my-network__summary > .my-network__summary-entity {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.my-network__summary-entity-title-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.my-network__summary-entity-title-styling {
+  font-size: 17px;
+  color: hsl(0, 0%, 50%);
+}
+
+.my-network__image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.my-network__image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.my-network__main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px;
+  min-width: 60%;
+  max-width: 60%;
+}
+
+.my-network__main-invitation-container {
+  min-width: 100%;
+  background-color: white;
+  border-radius: 10px 10px;
+}
+
+.my-network__main-invitation-heading-container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.my-network__main-invitation-subheading {
+  font-weight: bold;
+  color: hsl(0, 0%, 50%);
+}
+
+.my-network__main-invitation-card {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-network__main-invitation-card-image {
+  border-radius: 100px 100px;
+  height: 90px;
+}
+
+.my-network__main-invitation-card-description {
+  margin-left: 10px;
+}
+
+.my-network__main-invitation-card-description-title {
+  font-weight: bold;
+}
+
+.my-network__main-invitation-card-description-subtitle {
+  margin-top: 4px;
+  color: hsl(0, 0%, 60%);
+  font-size: 14px;
+}
+
+.my-network__main-invitation-card-left {
+  display: flex;
+  align-items: center;
+}
+
+.my-network__main-invitation-card-description-buttons {
+  display: flex;
+  gap: 10px;
+  padding: unset;
+  padding-right: 10px;
+}
+
+.my-network__main-invitation-card-description-button1-style {
+  border: unset;
+  border-radius: 20px 20px;
+  padding: 5px 10px;
+  background-color: unset;
+  font-weight: bold;
+  color: hsl(0, 0%, 50%);
+  font-size: 17px;
+}
+
+.my-network__main-invitation-card-description-button2-style {
+  border: unset;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 20px 20px;
+  padding: 5px 10px;
+  background-color: unset;
+  font-weight: bold;
+  color: blue;
+  font-size: 17px;
+}
+
+.my-network__main-events {
+  margin-top: 20px;
+  border-radius: 10px 10px;
+  background-color: white;
+}
+
+.my-network__main-events-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.my-network__main-events-grid-card {
+    width: 33%;
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 10px 10px;
+}
+
+.my-network__main-events-grid-card-image{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px;
+}
+
+.my-network__main-events-grid-card-image-dp{
+    width: 50px;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+.my-network__main-events-grid-card-heading{
+    margin: unset;
+    padding-left: 15px;
+}
+
+.my-network__main-events-grid-card-date{
+    margin: unset;
+    padding-left: 15px;
+    color: hsl(0, 0%, 60%);
+    font-size: 14px;
+}
+
+.my-network__main-events-grid-card-attendees{
+    margin: unset;
+    padding-left: 15px;
+    color: hsl(0, 0%, 60%);
+    font-size: 13px;
+
+}

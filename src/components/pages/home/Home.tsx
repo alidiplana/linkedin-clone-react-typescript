@@ -1,7 +1,7 @@
 import "./home.css";
-import Sidebar from "../sidebarLayout/SidebarLayout";
-import AsideLayout from "../asideLayout/AsideLayout";
-import MainLayout from "../mainLayout/MainLayout";
+import Sidebar from "../../sidebarLayout/SidebarLayout";
+import AsideLayout from "../../asideLayout/AsideLayout";
+import MainLayout from "../../mainLayout/MainLayout";
 
 const Home: React.FC = () => {
   return (
