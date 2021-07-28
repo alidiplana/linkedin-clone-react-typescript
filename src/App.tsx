@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
-import Home from "./components/home/Home";
+import Home from "./components/pages/home/Home";
+// import MyNetwork from "./components/pages/network/MyNetwork";
 // import 'app.css';
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Header />
       <Home />
+      {/* <MyNetwork /> */}
     </div>
   );
 };
